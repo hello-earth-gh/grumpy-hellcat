@@ -36,7 +36,7 @@ public class PDFServiceOpenPDFTest {
         try {
             
             // step 2: creation of the writer-object
-            PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("c:\\temp\\unicode.pdf"));
+            PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("c:\\temp\\created_with_openpdf.pdf"));
             
             // step 3: we open the document
             document.open();
