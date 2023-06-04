@@ -23,7 +23,7 @@ public class PdfBoxAnnotationsBrokenSignatureScenario {
         System.out.println("PdfBoxAnnotationsBrokenSignatureScenario");
 
         byte[] input = null;
-        String name = "test_libre_office_signed_certified.pdf";
+        String name = "test_libre_office_tagged_v1.7_certified_signed_tsa_sha256.pdf";
         try ( InputStream is = PdfBoxAnnotationsBrokenSignatureScenario.class.getResourceAsStream("/pdfbox/" + name)) {
             input = IOUtils.toByteArray(is);
         }
